@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-   * main - return the last digit of a randomly generated no.
-    * Return: returns 0(successful)
-     */
+ * main - return the last digit of a randomly generated no.
+ * Return: returns 0(successful)
+ */
 
 int main(void)
 {
 	int n;
 	int num;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is ", n);
