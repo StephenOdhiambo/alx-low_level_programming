@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
-*main: start of the program
-*always returns : 0
+*main - returns alphabets both except e and q
+*
+*Return always 0
 **/
 int main(void)
 {
