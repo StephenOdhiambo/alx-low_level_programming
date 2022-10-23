@@ -1,23 +1,24 @@
 #include <stdio.h>
+#include <stdlib.h>
 /*
 *main: start of the program
 *always returns : 0
 **/
 int main(void)
 {
-	int ch='z';
-	int CH='Z';
+	int ch = 'z';
+	int CH = 'Z';
 
-	while(ch <= 'z')
+	while (ch <= 'z')
 	{
-		putchar(ch);
+		putchar (ch);
 		ch++;
 	}
-	while(CH <='Z')
+	while (CH <='Z')
 	{
-		putchar(CH);
+		putchar (CH);
 		CH++;
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
