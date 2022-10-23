@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /*
 *main: start of the program
 *always returns : 0
