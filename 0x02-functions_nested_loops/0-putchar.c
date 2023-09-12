@@ -1,22 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Main function starts from here
- *
- * The function prints an output of _putchar
- *
+ * main - Starting point
+ * Description: Write a Program that prints "_putchar"
+ * Return: (0) indicating successful execution
  */
-
 int main(void)
 {
-	putchar("_");
-	putchar("p");
-	putchar("u");
-	putchar("t");
-	putchar("c");
-	putchar("h");
-	putchar("a");
-	putchar("r");
-	putchar("\n");
-return 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
