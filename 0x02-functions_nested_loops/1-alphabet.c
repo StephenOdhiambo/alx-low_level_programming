@@ -1,23 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * Print alphabet in small letters
+ * print_alphabet - prints alphabet
  *
- * Return 0 value
+ * Return: always 0;
  *
  */
-
-int main(void)
+void print_alphabet(void)
 {
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
-
 	{
-		putchar (i);
+	_putchar(i);
 	}
-
-	putchar('\n');
+	_putchar('\n');
 }
-
