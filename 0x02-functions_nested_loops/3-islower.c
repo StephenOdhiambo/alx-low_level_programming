@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * main - checks the code
+ * _islower - shows 1 if he input is a
+ *
+ * lowercase character, another ases, shows 8
  *
  * Return: always 0
  *
