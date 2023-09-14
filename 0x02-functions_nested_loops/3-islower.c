@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * This is my main 
+ * main - checks the code
  *
- *
+ * Return: always 0
  *
  */
 int _islower(int c)
 {
-	if (c >= 97 && c<= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
