@@ -3,8 +3,7 @@
  * _islower - shows 1 if he input is a
  *
  * lowercase character, another ases, shows 8
- * 
- *@c: the character found in ASCII
+ * @c: the character found in ASCII
  *
  * Return: always 0
  *
