@@ -6,6 +6,7 @@
  *
  * @b: second number
  *
+ * @add: Return value of sum
  */
 int add(int a, int b)
 {
